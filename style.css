@@ -8,7 +8,8 @@ li {
   list-style: none;
 }
 
-input,button {
+input,
+button {
   outline: none;
 }
 
@@ -83,7 +84,8 @@ input,button {
     text-transform: uppercase;
 }
 
-.item__input, .add-item__input {
+.item__input, 
+.add-item__input {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -96,7 +98,8 @@ input,button {
     color: #888;
 }
 
-.item__input:focus, .add-item__input:focus {
+.item__input:focus, 
+.add-item__input:focus {
     color: #333;
 }
 
