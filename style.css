@@ -1,15 +1,15 @@
 /* Basic Style */
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 li {
-  list-style:none;
+  list-style: none;
 }
 
 input,button {
-  outline:none;
+  outline: none;
 }
 
 .page {
@@ -33,7 +33,7 @@ input,button {
     font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .info { 
     text-align: center;
@@ -159,14 +159,14 @@ input,button {
 
 /* Edit Task */
 .item__input {
-    display:none
+    display: none
 }
 
 .item.item_edit .item__input {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
 }
 
 .item.item_edit .item__label {
-    display:none;
+    display: none;
 }
