@@ -72,8 +72,7 @@ button {
     color: #3a3a3a;
 }
 
-.todo__title,
-.add-item__label {
+.todo__title{
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -103,7 +102,7 @@ button {
 }
 
 
-.add-item__label {
+.todo__title.todo__title_add-item {
     display: block;
     margin: 0 0 20px;
 }
@@ -147,7 +146,7 @@ button {
     transform: rotateZ(0);
 }
 
-#completed-tasks .item__label {
+.todo__list.todo__list_completed .item__label {
     text-decoration: line-through;
     color: #888;
 }
