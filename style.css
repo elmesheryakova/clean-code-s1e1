@@ -1,6 +1,6 @@
 ul {
   margin: 0;
-  padding: 0px;
+  padding: 0;
 }
 
 li {
@@ -44,7 +44,7 @@ button {
 .todo {
     display: block;
     width: 500px;
-    margin: 0 auto 0;
+    margin: 0 auto;
 }
 
 .item__label,
@@ -60,7 +60,7 @@ button {
 
 .item__btn {
     background: none;
-    border: 0px;
+    border: 0;
     color: #888;
     font-size: 15px;
     width: 60px;
@@ -117,14 +117,9 @@ button {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.item > * {
-    vertical-align: middle;
 }
 
 .item__checkbox {
